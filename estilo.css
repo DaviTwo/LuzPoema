@@ -1,0 +1,33 @@
+
+    body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Times New Roman', serif;
+        color: #f4efef;
+        backdrop-filter: blur(2px);
+        background: linear-gradient(to bottom right, rgba(73, 71, 71, 0.5), rgba(35, 35, 35, 0.3)), 
+                    url('./img/fundo9.jpg') no-repeat center center/cover;
+    }
+    .poem-container {
+        background: rgba(127, 104, 104, 0.2); 
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        max-width: 600px;
+        text-align: center;
+        backdrop-filter: blur(5px);
+    }
+    h1 {
+        margin: 0 0 20px;
+        font-size: 2em;
+        font-weight: bold;
+        font-style: italic;
+    }
+    p {
+        margin: 0;
+        font-size: 1.2em;
+        line-height: 1.5em;
+    }
